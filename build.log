@@ -1,0 +1,22 @@
+--- [SYSTEM] PACK: 'ext-zsh' (*.orig.tar.xz)
+File '*.orig.tar.*' not found! Creating...
+File 'ext-zsh_1.0.1.orig.tar.xz' created!
+--- [SYSTEM] BUILD: 'github.com/pkgstore/linux-deb-ext-zsh.git'
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building ext-zsh using existing ./ext-zsh_1.0.1.orig.tar.xz
+dpkg-source: warning: ignoring deletion of file zshrc.grml, use --include-removal to override
+dpkg-source: info: building ext-zsh in ext-zsh_1.0.1-5.debian.tar.xz
+dpkg-source: info: building ext-zsh in ext-zsh_1.0.1-5.dsc
+File 'ext-zsh_1.0.1-5.dsc' found!
+Build completed!
+--- [SYSTEM] MOVE: '/root/git/repo_src' -> '/root/git/repo_dst'
+Removing old files from repository...
+Moving new files to repository...
+renamed '/root/git/repo_src/_service' -> '/root/git/repo_dst/_service'
+renamed '/root/git/repo_src/_meta' -> '/root/git/repo_dst/_meta'
+renamed '/root/git/repo_src/README.md' -> '/root/git/repo_dst/README.md'
+renamed '/root/git/repo_src/LICENSE' -> '/root/git/repo_dst/LICENSE'
+renamed '/root/git/repo_src/ext-zsh_1.0.1-5.debian.tar.xz' -> '/root/git/repo_dst/ext-zsh_1.0.1-5.debian.tar.xz'
+renamed '/root/git/repo_src/ext-zsh_1.0.1.orig.tar.xz' -> '/root/git/repo_dst/ext-zsh_1.0.1.orig.tar.xz'
+renamed '/root/git/repo_src/ext-zsh_1.0.1-5.dsc' -> '/root/git/repo_dst/ext-zsh_1.0.1-5.dsc'
+renamed '/root/git/repo_src/build.log' -> '/root/git/repo_dst/build.log'
